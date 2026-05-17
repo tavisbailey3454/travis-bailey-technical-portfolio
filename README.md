@@ -10,7 +10,7 @@ GitHub Pages-ready portfolio site for selected Spring 2026 technical coursework,
 4. VT Fall Accounting and Inventory Analytics - inventory transactions, SKU alerts, pro forma finance models
 5. K-means Text Clustering - R, TF-IDF, text mining, clustering, visualization
 6. R Data Story and Visual Analytics - R, dplyr, ggplot2, Excel/CSV data, public-data analysis
-7. Comic Store Systems Analysis - UML, use cases, swimlanes, requirements documentation
+7. Comic Store Systems Analysis - functional requirements, UML-style diagrams, CRC cards, CRUDE matrix, method contracts
 8. Supply Chain Planning Analysis - reorder point, MRP, control charts, operations planning
 
 ## How To Publish On GitHub Pages
