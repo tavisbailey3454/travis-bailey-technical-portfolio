@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Excel database integration lab</title>
+  <desc id="desc">A database integration workbook showing database location, query, macro button, and output table.</desc>
+  <rect width="1200" height="750" fill="#f5f7fa"/>
+  <rect x="70" y="70" width="1060" height="610" rx="18" fill="#fff" stroke="#d8dee7" stroke-width="3"/>
+  <text x="115" y="135" fill="#16202a" font-family="Arial" font-size="44" font-weight="700">Excel Database Integration Lab</text>
+  <text x="115" y="178" fill="#617083" font-family="Arial" font-size="23">Macro-enabled workbook for database query setup and result output</text>
+  <g font-family="Arial">
+    <rect x="155" y="250" width="890" height="72" rx="10" fill="#edf7f6" stroke="#0d7f7a" stroke-width="3"/>
+    <text x="190" y="296" fill="#075f5b" font-size="24" font-weight="700">1. Specify database location</text>
+    <rect x="155" y="350" width="890" height="72" rx="10" fill="#fff7e9" stroke="#c8861f" stroke-width="3"/>
+    <text x="190" y="396" fill="#835914" font-size="24" font-weight="700">2. Write database query</text>
+    <rect x="155" y="450" width="420" height="82" rx="10" fill="#17324d"/>
+    <text x="365" y="501" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">Run Macro</text>
+    <rect x="625" y="450" width="420" height="82" rx="10" fill="#fbeeed" stroke="#b64a3d" stroke-width="3"/>
+    <text x="835" y="501" text-anchor="middle" fill="#8c342b" font-size="25" font-weight="700">View Results</text>
+    <text x="600" y="612" text-anchor="middle" fill="#617083" font-size="23">Excel + VBA + database workflow thinking</text>
+  </g>
+</svg>

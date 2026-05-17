@@ -1,14 +1,17 @@
 # Travis Bailey Technical Portfolio
 
-GitHub Pages-ready portfolio site for selected Spring 2026 technical coursework and the FinalProject2 Python application.
+GitHub Pages-ready portfolio site for selected Spring 2026 technical coursework, VT Fall Excel analytics work, and the FinalProject2 Python application.
 
 ## Featured Projects
 
 1. Staff Project Optimization App - Python, PyQt6, PuLP, API data, optimization modeling
-2. K-means Text Clustering - R, TF-IDF, text mining, clustering, visualization
-3. R Data Story and Visual Analytics - R, dplyr, ggplot2, Excel/CSV data, public-data analysis
-4. Comic Store Systems Analysis - UML, use cases, swimlanes, requirements documentation
-5. Supply Chain Planning Analysis - reorder point, MRP, control charts, operations planning
+2. Excel VBA Order Entry System - macro-enabled workbook, order form, product/customer/order tables
+3. Excel Database Integration Lab - database location, query flow, macro execution, result output
+4. VT Fall Accounting and Inventory Analytics - inventory transactions, SKU alerts, pro forma finance models
+5. K-means Text Clustering - R, TF-IDF, text mining, clustering, visualization
+6. R Data Story and Visual Analytics - R, dplyr, ggplot2, Excel/CSV data, public-data analysis
+7. Comic Store Systems Analysis - UML, use cases, swimlanes, requirements documentation
+8. Supply Chain Planning Analysis - reorder point, MRP, control charts, operations planning
 
 ## How To Publish On GitHub Pages
 

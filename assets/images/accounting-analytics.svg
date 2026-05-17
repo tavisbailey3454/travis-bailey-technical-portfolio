@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Accounting and inventory analytics workbook collection</title>
+  <desc id="desc">Excel analytics workbooks covering inventory transactions, SKU alerts, returns, loans, leases, and pro forma income statements.</desc>
+  <rect width="1200" height="750" fill="#f5f7fa"/>
+  <rect x="70" y="70" width="1060" height="610" rx="18" fill="#fff" stroke="#d8dee7" stroke-width="3"/>
+  <text x="115" y="135" fill="#16202a" font-family="Arial" font-size="44" font-weight="700">Accounting and Inventory Analytics</text>
+  <text x="115" y="178" fill="#617083" font-family="Arial" font-size="23">VT Fall Excel workbooks using formulas, models, and transaction data</text>
+  <g font-family="Arial">
+    <rect x="145" y="255" width="265" height="270" rx="14" fill="#edf7f6" stroke="#0d7f7a" stroke-width="3"/>
+    <text x="278" y="315" text-anchor="middle" fill="#075f5b" font-size="27" font-weight="700">30k+ Rows</text>
+    <text x="278" y="365" text-anchor="middle" fill="#16202a" font-size="22">Inventory</text>
+    <text x="278" y="405" text-anchor="middle" fill="#16202a" font-size="22">Transactions</text>
+    <text x="278" y="445" text-anchor="middle" fill="#16202a" font-size="22">SKU Alerts</text>
+    <rect x="468" y="255" width="265" height="270" rx="14" fill="#fff7e9" stroke="#c8861f" stroke-width="3"/>
+    <text x="600" y="315" text-anchor="middle" fill="#835914" font-size="27" font-weight="700">Finance</text>
+    <text x="600" y="365" text-anchor="middle" fill="#16202a" font-size="22">Loan Data</text>
+    <text x="600" y="405" text-anchor="middle" fill="#16202a" font-size="22">Lease Data</text>
+    <text x="600" y="445" text-anchor="middle" fill="#16202a" font-size="22">Future NI</text>
+    <rect x="790" y="255" width="265" height="270" rx="14" fill="#eef3fb" stroke="#17324d" stroke-width="3"/>
+    <text x="923" y="315" text-anchor="middle" fill="#17324d" font-size="27" font-weight="700">Models</text>
+    <text x="923" y="365" text-anchor="middle" fill="#16202a" font-size="22">Formulas</text>
+    <text x="923" y="405" text-anchor="middle" fill="#16202a" font-size="22">Budgeting</text>
+    <text x="923" y="445" text-anchor="middle" fill="#16202a" font-size="22">Analysis</text>
+  </g>
+</svg>
