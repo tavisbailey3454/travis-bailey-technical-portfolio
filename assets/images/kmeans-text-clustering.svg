@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">K-means text clustering workflow</title>
+  <desc id="desc">A text analytics workflow from raw sentences to TF-IDF, clusters, and sentiment interpretation.</desc>
+  <rect width="1200" height="750" fill="#f5f7fa"/>
+  <rect x="70" y="70" width="1060" height="610" rx="18" fill="#fff" stroke="#d8dee7" stroke-width="3"/>
+  <text x="115" y="135" fill="#16202a" font-family="Arial" font-size="44" font-weight="700">K-means Text Clustering</text>
+  <text x="115" y="178" fill="#617083" font-family="Arial" font-size="23">R workflow using tokenization, TF-IDF, K-means, and PCA</text>
+  <g font-family="Arial">
+    <circle cx="300" cy="360" r="118" fill="#edf7f6" stroke="#0d7f7a" stroke-width="3"/>
+    <circle cx="550" cy="335" r="118" fill="#fff7e9" stroke="#c8861f" stroke-width="3"/>
+    <circle cx="800" cy="390" r="118" fill="#fbeeed" stroke="#b64a3d" stroke-width="3"/>
+    <text x="300" y="350" text-anchor="middle" fill="#075f5b" font-size="27" font-weight="700">Cluster 1</text>
+    <text x="550" y="325" text-anchor="middle" fill="#835914" font-size="27" font-weight="700">Cluster 2</text>
+    <text x="800" y="380" text-anchor="middle" fill="#8c342b" font-size="27" font-weight="700">Cluster 3</text>
+    <text x="300" y="390" text-anchor="middle" fill="#617083" font-size="20">top words</text>
+    <text x="550" y="365" text-anchor="middle" fill="#617083" font-size="20">sentiment mix</text>
+    <text x="800" y="420" text-anchor="middle" fill="#617083" font-size="20">PCA view</text>
+  </g>
+  <rect x="145" y="560" width="910" height="58" rx="10" fill="#16202a"/>
+  <text x="600" y="597" text-anchor="middle" fill="#fff" font-family="Arial" font-size="24" font-weight="700">Raw text → tokens → TF-IDF matrix → K-means clusters → chart summaries</text>
+</svg>

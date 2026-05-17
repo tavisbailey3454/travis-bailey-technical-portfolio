@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travis Bailey | Technical Project Portfolio</title>
+    <meta
+      name="description"
+      content="Technical portfolio for Travis Bailey, featuring analytics, optimization, systems analysis, and supply chain coursework."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="#top">Travis Bailey</a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Business Information Technology | Decision-Support Systems</p>
+          <h1>Technical coursework portfolio focused on analytics, optimization, systems design, and process improvement.</h1>
+          <p>
+            Selected work from Spring 2026 and a final Python optimization project. These projects show how I use data,
+            modeling, documentation, and application development to solve business and technology problems.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="https://github.com/tavisbailey3454">GitHub Profile</a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/images/staff-project-optimization.svg" alt="Illustrated dashboard for a Python staffing optimization app">
+        </figure>
+      </section>
+
+      <section class="section intro" aria-labelledby="portfolio-summary">
+        <div>
+          <h2 id="portfolio-summary">What This Shows</h2>
+          <p>
+            The projects below were chosen because they align with internship roles in data analytics, business analysis,
+            IT systems, process automation, supply chain, and technical consulting.
+          </p>
+        </div>
+        <ul class="proof-points">
+          <li>Built analytical workflows in Python and R</li>
+          <li>Modeled business decisions with optimization and constraints</li>
+          <li>Created diagrams and documentation for system requirements</li>
+          <li>Translated raw data into charts, summaries, and decision support</li>
+        </ul>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="project-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Work</p>
+          <h2 id="project-heading">Five Technical Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <img src="assets/images/staff-project-optimization.svg" alt="Python app dashboard illustration for staffing optimization">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Python</span>
+                <span>Optimization</span>
+                <span>PyQt6</span>
+              </div>
+              <h3>Staff Project Optimization App</h3>
+              <p>
+                Developed a desktop application that pulls staff, rate, project, and hour data from an API, builds a
+                linear programming model, and assigns employees to projects while minimizing cost and idle hours.
+              </p>
+              <ul>
+                <li>Used PuLP binary decision variables and weekly workload constraints.</li>
+                <li>Added employee and project views with cost, profit, billable-hour, and classification charts.</li>
+                <li>Designed a PyQt interface for nontechnical users to run and inspect optimization results.</li>
+              </ul>
+              <a href="projects/staff-project-optimization/staff_project_optimization.py">View source code</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/kmeans-text-clustering.svg" alt="K-means text clustering visualization">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>R</span>
+                <span>Text Mining</span>
+                <span>K-means</span>
+              </div>
+              <h3>K-means Text Clustering</h3>
+              <p>
+                Built an R workflow to clean a financial news sentiment dataset, tokenize documents, remove stop words,
+                create TF-IDF features, and cluster text into interpretable groups.
+              </p>
+              <ul>
+                <li>Sampled documents while preserving the original sentiment distribution.</li>
+                <li>Generated cluster-size, sentiment-alignment, top-word, and PCA visualizations.</li>
+                <li>Exported summary CSVs for presentation and reporting.</li>
+              </ul>
+              <a href="projects/kmeans-text-clustering/kmeans_text_clustering.R">View R workflow</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/r-data-story.svg" alt="R data story visualization">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>R</span>
+                <span>ggplot2</span>
+                <span>Data Story</span>
+              </div>
+              <h3>R Data Story and Visual Analytics</h3>
+              <p>
+                Created a data story workflow that reads Excel and CSV files, transforms fields with dplyr, and produces
+                polished visual summaries for social and public-data analysis.
+              </p>
+              <ul>
+                <li>Used readxl, dplyr, tidyr, ggplot2, and scales.</li>
+                <li>Built charts for representation gaps, state-year heatmaps, and human-data summaries.</li>
+                <li>Organized reusable plotting functions and export logic.</li>
+              </ul>
+              <a href="projects/data-story-r-analytics/cool_data_story.R">View R script</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/comic-store-systems-analysis.svg" alt="Systems analysis diagram for comic store project">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Systems Analysis</span>
+                <span>UML</span>
+                <span>Requirements</span>
+              </div>
+              <h3>Comic Store Systems Analysis</h3>
+              <p>
+                Modeled an online comic store system through UML-style diagrams, use cases, swimlanes, and a CRUDE matrix
+                to connect business processes with system requirements.
+              </p>
+              <ul>
+                <li>Documented checkout, inventory, shopping cart, and comic-management flows.</li>
+                <li>Created class, use-case, and swimlane diagrams for system behavior.</li>
+                <li>Translated business actions into data and system responsibilities.</li>
+              </ul>
+              <a href="projects/comic-store-systems-analysis/README.md">View project summary</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/supply-chain-planning.svg" alt="Supply chain planning flow from demand to reorder and material requirements">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Supply Chain</span>
+                <span>Operations</span>
+                <span>Planning</span>
+              </div>
+              <h3>Supply Chain Planning Analysis</h3>
+              <p>
+                Selected operations coursework covering inventory planning, control charts, reorder points, and material
+                requirements planning. This work connects analytical decision rules with supply chain execution.
+              </p>
+              <ul>
+                <li>Worked through reorder point and material requirements planning logic.</li>
+                <li>Applied operations tools to production, inventory, and process-control decisions.</li>
+                <li>Supports internship roles involving logistics, procurement, analytics, or process automation.</li>
+              </ul>
+              <a href="projects/supply-chain-planning/README.md">View project summary</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills" aria-labelledby="skills-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Technical Alignment</p>
+          <h2 id="skills-heading">Skills Demonstrated</h2>
+        </div>
+        <div class="skill-list">
+          <span>Python</span>
+          <span>R</span>
+          <span>SQL-ready data thinking</span>
+          <span>Excel and analytics</span>
+          <span>Optimization modeling</span>
+          <span>Data visualization</span>
+          <span>Systems analysis</span>
+          <span>Supply chain planning</span>
+          <span>Documentation</span>
+          <span>Process improvement</span>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-heading">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-heading">Interested in data, systems, cyber, and business technology internships.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:Travis05@vt.edu">Travis05@vt.edu</a>
+          <a href="https://linkedin.com/in/travis-bailey-7789a0212">LinkedIn</a>
+          <a href="https://github.com/tavisbailey3454">GitHub</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
